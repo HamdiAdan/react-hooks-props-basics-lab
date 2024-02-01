@@ -7,7 +7,7 @@ function About(props) {
       <h2>About Me</h2>
       {props.bio && props.bio.length > 1 ? <p>{props.bio}</p> : null}
 
-      <p>Put the bio in here</p>
+      
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
 
 
